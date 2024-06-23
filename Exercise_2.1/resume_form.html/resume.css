@@ -8,9 +8,10 @@ html {
 
 body {
 
-    background-color: red;
+    background-color:blue;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
+    color: #FFFFFF;
     line-height: 2;
     margin: 3rem;
     padding: 3rem;
@@ -18,14 +19,14 @@ body {
 
     }
 
-/*Changed the background color to red*/
+/*Changed the background color to blue*/
 /*Changed the font family to Georgia*/
 /*Changed the font size to 15 pixels*/
 /*Increased the line height*/
 a {
-    color: white;
+    color: orange;
 }
-/*This changed the link color to white*/
+/*This changed the link color to orange*/
 a {
     text-decoration: none;
 }
@@ -35,7 +36,7 @@ h1 {
     font-weight: 800;
     font-size: 3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 3px 3px white;
+    text-shadow: 3px 3px black;
     text-transform: uppercase
     
     
@@ -105,6 +106,15 @@ form textarea
     border:3px solid white ;
     border-radius:50%;
     object-fit: cover;
+}
+
+.contactform 
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;    
+
+
 }
 
 
