@@ -16,8 +16,8 @@ body {
     margin: 3rem;
     padding: 3rem;
     border: 2px solid white;
-
-    }
+    
+}
 
 /*Changed the background color to blue*/
 /*Changed the font family to Georgia*/
@@ -32,6 +32,7 @@ a {
 }
 
 h1 {
+    transition: font-size 1s;
     text-align: center;
     font-weight: 800;
     font-size: 3rem;
@@ -41,6 +42,12 @@ h1 {
     
     
 }
+
+h1:hover{
+    color: yellow;
+    font-size: 4em;
+}
+/*Changed the font color when hover over name
 /*This changed the h1 font size to 3 times the regular font*/
 /*I akso changed the font family of my h1*/
 
@@ -117,5 +124,10 @@ form textarea
 
 }
 
+@media (max-width: 480px) {
+    body{
+        background-color: red;
+    }
+}
 
 
